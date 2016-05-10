@@ -1,3 +1,4 @@
+/* Copyright 2016 Karácsony Máté */
 #ifndef MACRO_CONFIG_H_INCLUDED
 #define MACRO_CONFIG_H_INCLUDED
 

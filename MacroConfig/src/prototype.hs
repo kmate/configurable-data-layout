@@ -1,3 +1,5 @@
+{- Copyright 2016 Karácsony Máté -}
+
 -- Configuration
 data ConfigItem = Scalar
                 | Ptr ConfigItem

@@ -1,3 +1,4 @@
+/* Copyright 2016 Karácsony Máté */
 #ifndef TEMPLATE_CONFIG_HPP_INCLUDED
 #define TEMPLATE_CONFIG_HPP_INCLUDED
 
