@@ -1,0 +1,25 @@
+int * f (int u, char (*((* v) [2]) ), char param_w);
+typedef struct
+{
+    int * x;
+    char ((* y) [8]);
+} test_t;
+void test_named_config()
+{
+    test_t * a;
+    char (*((* b) [16]) );
+    do { a = malloc(sizeof(*(a))); } while(0);
+    do { b = malloc(sizeof(*(b))); for(int i0 = 0; i0 < sizeof(*(b)) / sizeof((*(b))[0]); ++i0) { (*(b))[i0] = malloc(sizeof(*((*(b))[i0]))); } } while(0);
+    *(a);
+    *(b);
+    *(*(b))[0];
+    do { (*(a)).x = malloc(sizeof(*((*(a)).x))); } while(0);
+    do { (*(a)).y = malloc(sizeof(*((*(a)).y))); } while(0);
+    *((*(a)).x);
+    *((*(a)).y);
+    (*((*(a)).y))[0];
+    do { free((*(a)).x); } while(0);
+    do { free((*(a)).y); } while(0);
+    do { free(a); } while(0);
+    do { for(int i0 = 0; i0 < sizeof(*(b)) / sizeof((*(b))[0]); ++i0) { free((*(b))[i0]); } free(b); } while(0);
+}
